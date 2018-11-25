@@ -8,6 +8,11 @@ let colors = [
 ];
 
 let squares = document.querySelectorAll(".square");
+let pickedColor = colors[3];
+let colorDisplay = document.getElementById("colorDisplay");
+
+colorDisplay.textContent = pickedColor;
+
 
 for(var i = 0; i < squares.length; i++){
 	// add initial colors to squares
